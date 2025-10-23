@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_BasicsAsyncAwait", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_InsidesOfAsyncAwait", "Task3_InsidesOfAsyncAwait\Task3_InsidesOfAsyncAwait.csproj", "{9E6614C1-87F1-4ACE-84C8-657B289EE4D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_WhenAll", "Task4_WhenAll\Task4_WhenAll.csproj", "{0CB55D85-061E-44A0-81EA-C04701483793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E6614C1-87F1-4ACE-84C8-657B289EE4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E6614C1-87F1-4ACE-84C8-657B289EE4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E6614C1-87F1-4ACE-84C8-657B289EE4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB55D85-061E-44A0-81EA-C04701483793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB55D85-061E-44A0-81EA-C04701483793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB55D85-061E-44A0-81EA-C04701483793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB55D85-061E-44A0-81EA-C04701483793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
