@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task9_Progress", "Task9_Progress\Task9_Progress.csproj", "{4D381823-E2C8-481A-91B1-ABCF0BB833B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task10_ValueTaskExample", "Task10_ValueTaskExample\Task10_ValueTaskExample.csproj", "{0D706D1F-FF2D-494B-B0A1-ECAD0961E533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{4D381823-E2C8-481A-91B1-ABCF0BB833B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D381823-E2C8-481A-91B1-ABCF0BB833B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D381823-E2C8-481A-91B1-ABCF0BB833B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D706D1F-FF2D-494B-B0A1-ECAD0961E533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D706D1F-FF2D-494B-B0A1-ECAD0961E533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D706D1F-FF2D-494B-B0A1-ECAD0961E533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D706D1F-FF2D-494B-B0A1-ECAD0961E533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
