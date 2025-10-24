@@ -13,20 +13,20 @@
                 контексте. Это позволяет безопасно обновлять UI.
                 Но пример приведен к консольном приложении, где нет UI-потока.
              */
-            var progress = new Progress<double>(percent =>
+            var progress = new Progress<int>(percent =>
             {
-                Console.WriteLine($"Прогресс операции: {percent:F1}%");
+                Console.WriteLine($"Прогресс операции: {percent}%");
             });
 
             await OperationAsync(progress);
         }
 
-        static async Task OperationAsync(IProgress<double> progress)
+        static async Task OperationAsync(IProgress<int> progress)
         {
             for(int i = 0; i <= 200; ++i)
             {
                 await Task.Delay(20);
-                progress.Report((i / 200.0) * 100.0); // уведомляем о прогрессе
+                progress.Report((i * 100) / 200); // уведомляем о прогрессе
             }
         }
     }

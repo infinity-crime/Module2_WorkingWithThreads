@@ -11,10 +11,8 @@ namespace Task10_ValueTaskExample
         private readonly Dictionary<int, string> _userData = new Dictionary<int, string>();
 
         public async ValueTask<string> GetDataAsync(int userId)
-        {
-            var userInfoStr = string.Empty;
-            
-            if(_userData.TryGetValue(userId, out userInfoStr))
+        {   
+            if(_userData.TryGetValue(userId, out var userInfoStr))
             {
                 Console.WriteLine("Запись найдена в кэше");
                 return userInfoStr;
